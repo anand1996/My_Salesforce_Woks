@@ -1,0 +1,12 @@
+I have a new project for you. We have started using a new Learning Management System (LMS) called Docebo.
+
+In Docebo we will offer 200+ courses.  We want to record details of those courses in Saleforce, and also then when a student is enrolled in a course, we want to store the enrolment in that course.
+
+Similar to what we are already doing in SF with Accounts, Products (courses), Opportunities (enrolments).
+
+However – these new courses are in addition to the existing, and they are different type of course, we are calling a “CPD Activity”, so we are going to store the courses and enrolments in two new objects.
+
+Docebo has Web Hooks we can configure for each of the different actions inside Docebo.
+
+We need you to write Salesforce Endpoints for the web hooks to process the updates etc and store the data in Salesforce.
+
